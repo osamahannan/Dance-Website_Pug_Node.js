@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+#navbar {
+    background-color: #ca3232;
+    padding: 13px 14px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding:  10px 30px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#navbar li a:hover {
+    color: aqua;
+}
+
+#introSection {
+    background: center / cover no-repeat url("dance.jpg");
+    height: 300px;
+    padding-bottom: 70px;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#introSection div.small {
+    font-size: 25px;
+}
+
+#sponsorSection {
+    height: 300px;
+    background-color: rgb(240, 110, 110);
+}
+
+#sponsorSection h2 {
+    text-align: center;
+    padding-top: 12px;
+}
+
+#missionSection {
+    height: 300px;
+    background-color: aqua;
+}
+
+#missionSection h2 {
+    text-align: center;
+    padding-top: 12px;
+}
+
+#footer {
+    height: 100px;
+    background-color: black;
+}
