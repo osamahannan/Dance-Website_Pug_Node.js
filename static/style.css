@@ -6,6 +6,18 @@
     font-family: 'Akaya Kanadaka', cursive;
 }
 
+#logo {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img {
+    height: 50px;
+    width: 50px;
+}
+
 #navbar {
     background-color: rgb(196, 68, 68);
     padding: 13px 14px;
@@ -14,7 +26,8 @@
 #navbar ul {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
 }
 
 #navbar li {
@@ -35,7 +48,6 @@
 #introSection {
     background: center / cover no-repeat url("dance.jpg");
     height: 388px;
-    /* padding-bottom: 70px; */
     color: white;
     font-size: 45px;
     display: flex;
@@ -62,12 +74,12 @@
 }
 
 .card {
-    width: 25%;
+    width: 28%;
     display: inline-block;
     border-radius: 10px;
     height: 255px;
     border: 2px solid black;
-    margin: 30px 63px;
+    margin: 30px 40px;
 }
 
 .card h3 {
