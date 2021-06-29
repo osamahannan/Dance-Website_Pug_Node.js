@@ -9,13 +9,16 @@
 #logo {
     display: flex;
     color: white;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    font-size: 1.3rem;
+    margin-right: 34px;
 }
 
 #logo img {
     height: 50px;
     width: 50px;
+    margin-right: 10px;
 }
 
 #navbar {
@@ -62,7 +65,6 @@
 
 #missionSection {
     height: 390px;
-    background-color: aqua;
 }
 
 #missionSection h2 {
@@ -80,11 +82,37 @@
     height: 255px;
     border: 2px solid black;
     margin: 30px 40px;
+    background-color: aqua;
 }
 
 .card h3 {
     text-align: center;
     margin: 10px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    height: 200px;
+}
+
+.card-img {
+    height: 125px;
+    padding: 0 14px;
+    background-color: white;
+    margin-left: 25px;
+}
+
+.card-img img {
+    height: inherit;
+    padding: 20px;
+}
+
+.card-content {
+    height: 100px;
+    padding: 20px;
 }
 
 #sponsorSection {
